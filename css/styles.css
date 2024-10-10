@@ -1,0 +1,63 @@
+
+body{
+    text-align: left;
+    background-image: linear-gradient(navy, grey);
+    padding: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1{
+    text-align: center;
+    margin: 0px;
+    padding-bottom: 6px;
+    background-color: rgb(1, 1, 57);
+    color: white;
+}
+
+table{
+    max-width: 300px;
+    border-collapse: collapse;
+
+}
+tr, th, td{
+    background-color: white;
+    border: white, ;
+    border-collapse: collapse;
+}
+.distribution{
+    background-color:rgb(1, 1, 57);
+    color: white;
+    font-size: 20px;
+}
+.resume{
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+.photoActeur{
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    border-radius: 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;  
+}
+.nom{
+    padding-left: 30px;
+    font-weight: bold;
+}
+.role{
+    font-weight: normal;
+    font-style: italic;
+}
+.sousTitre{
+padding: 8px;
+ font-weight: bold;
+ font-size: 20px;
+}
+.afficheFilm{
+    padding-left: 3px;
+}
+.lien{
+    padding-left: 20px;
+    padding-bottom: 15px;
+}
