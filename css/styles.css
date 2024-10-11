@@ -34,6 +34,9 @@ table{
     padding: 8px;
     padding-bottom: 15px;
 }
+.afficheFilm{
+    padding-left: 5px;
+}
 .distribution{
     background-color: rgb(18, 18, 118);
     color: white;
