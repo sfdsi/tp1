@@ -1,36 +1,41 @@
-
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
 body{
-    text-align: left;
-    background-image: linear-gradient(navy, grey);
-    padding: 20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: left;
+    font-size:20px;
+    background-image: linear-gradient(navy, grey);
 }
 h1{
     text-align: center;
-    margin: 0px;
-    padding-bottom: 6px;
-    background-color: rgb(1, 1, 57);
     color: white;
+    background-color: rgb(1, 1, 51);
+    padding-bottom: 5px;
+    padding-top: 5px;
+    font-weight: normal;
 }
-
 table{
-    max-width: 300px;
-    border-collapse: collapse;
-
-}
-tr, th, td{
+    width: 40%;
     background-color: white;
-    border: white, ;
-    border-collapse: collapse;
+    margin: 20px auto;
 }
-.distribution{
-    background-color:rgb(1, 1, 57);
-    color: white;
+.synopsis{
     font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 8px;
 }
 .resume{
-    padding-top: 15px;
-    padding-bottom: 10px;
+    padding: 8px;
+}
+.distribution{
+    background-color: rgb(18, 18, 118);
+    color: white;
+    font-size: 30px;
+    padding-left: 8px;
 }
 .photoActeur{
     width: 80px;
@@ -39,25 +44,29 @@ tr, th, td{
     border-radius: 40px;
     background-size: cover;
     background-repeat: no-repeat;
-    display: inline-block;  
+    display: inline-block;
 }
 .nom{
-    padding-left: 30px;
     font-weight: bold;
 }
 .role{
     font-weight: normal;
     font-style: italic;
-}
-.sousTitre{
-padding: 8px;
- font-weight: bold;
- font-size: 20px;
-}
-.afficheFilm{
-    padding-left: 3px;
+    color: navy;
 }
 .lien{
-    padding-left: 20px;
     padding-bottom: 15px;
+    padding-left: 40px;
+    padding-top: 10px;
+    font-size: 20px;
+    list-style: disc;
+    font-weight: normal;
+}
+.sousTitre{
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 8px;
+    list-style: none;
+    font-weight: bold;
 }
