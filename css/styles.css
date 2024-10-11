@@ -9,18 +9,20 @@ body{
     font-size:20px;
     background-image: linear-gradient(navy, grey);
 }
-h1{
+.titre{
     text-align: center;
     color: white;
     background-color: rgb(1, 1, 51);
-    padding-bottom: 5px;
-    padding-top: 5px;
     font-weight: normal;
+    font-size: 35px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 table{
     width: 40%;
     background-color: white;
     margin: 20px auto;
+    border-collapse: collapse;
 }
 .synopsis{
     font-size: 20px;
@@ -49,7 +51,6 @@ table{
 }
 .nom{
     font-weight: bold;
-    width: 70%;
 }
 .role{
     font-weight: normal;
