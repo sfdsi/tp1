@@ -18,7 +18,7 @@ h1{
     font-weight: normal;
 }
 table{
-    width: 70%;
+    width: 40%;
     background-color: white;
     margin: 20px auto;
 }
@@ -49,6 +49,7 @@ table{
 }
 .nom{
     font-weight: bold;
+    width: 40%;
 }
 .role{
     font-weight: normal;
