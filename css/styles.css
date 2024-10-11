@@ -18,7 +18,7 @@ h1{
     font-weight: normal;
 }
 table{
-    width: 40%;
+    width: 70%;
     background-color: white;
     margin: 20px auto;
 }
@@ -30,6 +30,7 @@ table{
 }
 .resume{
     padding: 8px;
+    padding-bottom: 15px;
 }
 .distribution{
     background-color: rgb(18, 18, 118);
